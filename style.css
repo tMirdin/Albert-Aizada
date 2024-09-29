@@ -1,12 +1,13 @@
-/* @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Noto+Serif+Display:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"); */
-
 * {
   font-family: "Noto Serif Display", serif;
-  /* font-optical-sizing: auto; */
+  font-optical-sizing: auto;
   font-style: normal;
   font-variation-settings: "wdth" 600;
   color: #3a3939;
-  font-weight: 600;
+  font-weight: 400;
+}
+p {
+  font-size: 20px;
 }
 
 body {
@@ -67,14 +68,13 @@ header .date {
 .date span {
   margin-bottom: 30px;
   font-weight: 800;
+  font-size: 30px;
 }
 
 header h3 {
   font-size: 30px;
+  font-weight: 600;
   margin: 5px;
-  font-family: "Dancing Script";
-  font-optical-sizing: auto;
-  font-style: normal;
   color: #1b3a70ee;
 }
 header h3:last-child {
@@ -120,7 +120,7 @@ section h2 {
 }
 
 .first_left h4 {
-  font-size: 14px;
+  font-size: 16px;
   margin: 10px auto;
   font-weight: 400;
 }
@@ -146,7 +146,7 @@ section h2 {
 }
 
 .guest_card span {
-  font-size: 14px;
+  font-size: 16px;
   display: block;
   margin-bottom: 40px;
 }
