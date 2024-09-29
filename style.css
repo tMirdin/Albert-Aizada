@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Noto+Serif+Display:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Noto+Serif+Display:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"); */
 
 * {
   font-family: "Noto Serif Display", serif;
@@ -69,7 +69,7 @@ header .date {
 header h3 {
   font-size: 30px;
   margin: 5px;
-  font-family: "Dancing Script", cursive;
+  font-family: "Dancing Script";
   font-optical-sizing: auto;
   font-style: normal;
   color: #1b3a70ee;
@@ -116,9 +116,9 @@ section h2 {
 }
 
 .first_left h4 {
-  font-size: 12px;
+  font-size: 14px;
   margin: 10px auto;
-  font-weight: 100;
+  font-weight: 400;
 }
 
 .first_left h3 {
@@ -128,7 +128,7 @@ section h2 {
 }
 
 .first_left span {
-  font-size: 14px;
+  font-size: 18px;
 }
 
 .det {
